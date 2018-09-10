@@ -14,7 +14,7 @@ We looked at the Singleton design pattern, which you may clone this repo to obta
 
 # Running the example code
 Open a terminal and type:
-```javascript
+```terminal
     git clone https://github.com/eeasterl/CS_LLC_One.git
     cd CS_LLC_One
     node main.js
