@@ -11,3 +11,9 @@ A design pattern is a known, empiracal solution to a common problem. There are m
 
 # the Singleton design pattern
 We looked at the Singleton design pattern, which you may clone this repo to obtain. It is the most simple pattern to start with. It keeps an instance of itself and returns that same instance whenever you new one up or use its familiar getInstance() method. Why would you want to return the same object? There are numerous cases where this is beneficial: caches, mediators, a Redux store for those of you familiar with React JS and in instances where usage is ubiquitous, for example logging. Also, Node JS creates a singleton for each class you require, so that if you require the same class in 20 files, you just get a reference to that one, not 20 copies of it. This should be clear going forward, as we (the LLC) will continue to use node for many of our projects. We will also use the singleton so please familiarize yourself with it thoroughly.
+
+# Running the example code
+Open a terminal and type:
+    git clone https://github.com/eeasterl/CS_LLC_One.git
+    cd CS_LLC_One
+    node main.js
